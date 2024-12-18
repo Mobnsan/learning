@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    left: 0;
+    
+}
+header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    height: 10vh;
+}
+header h2{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+.mo a{
+    display: inline-block;
+    margin-left:20px ;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 40px;
+    border-radius: 20px;
+}
+.mo a:hover{
+    background-color: black;
+    color: white;
+}
+.div11{
+   background:linear-gradient(to bottom,white,rgb(236, 171, 86)) ;
+    height: 130vh;
+    
+}
+.div11 h1{
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    
+    font-size: 60px;
+    
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+   
+    border-radius: 30px;
+    overflow: hidden;
+    width: 600px;
+    height: 70px;
+    margin-left: 350px;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 20px; 
+    background-color: transparent;
+  
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #000000; /* لون الزر */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar button i {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #fff9f9;
+  }
+.div1{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 12;
+}
+.div1 a{
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+.div1 a i{
+    margin-bottom: 10px;
+}
+.div1 a:hover{
+    color: rgb(236, 171, 86);
+}
+.div2 {
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    background-color: #000000;
+    margin-top: 40px;
+    border-radius: 20px;
+    position: relative; /* يجب أن يكون الأب بالنسبة للعنصر الأحمر */
+}
+
+.div12 {
+    position: absolute;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    background: url(https://cdn.pixabay.com/photo/2020/03/09/13/53/engineer-4915787_640.jpg);
+    border-radius: 20px;
+    top: 720px; /* تحديد الإزاحة من الأعلى */
+    left: 600px; /* تحديد الإزاحة من اليسار */
+    z-index: 10; /* يظهر فوق العنصر الأسود */
+}
+.div5{
+    position: absolute;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    background: url(https://cdn.pixabay.com/photo/2020/03/09/13/54/engineer-4915804_640.jpg);
+    border-radius: 20px;
+    top: 520px; /* تحديد الإزاحة من الأعلى */
+    left: 50px; /* تحديد الإزاحة من اليسار */
+    z-index: 10; /* يظهر فوق العنصر الأسود */
+}
+
+.div22{
+    background-color: rgb(236, 171, 86);
+   
+    display: flex;
+    height: 60vh;
+   
+    background-color: rgb(236, 171, 86);
+    & .div13{
+        width: 180px;
+        height: 190px;
+        border-radius: 20px;
+        background-color: #000000;
+        
+        margin-top: 250px;
+        margin-left: 110px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.877),0 0 25px rgba(0, 0, 0, 0.877),0 0 50px rgba(0, 0, 0, 0.877),0 0 100px rgba(0, 0, 0, 0.877);
+        transition: all .3s ease-in-out;
+        &:hover{
+            transform: scale(0.97);
+            box-shadow: none;
+        }
+        &:nth-of-type(1){
+            background: url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(2){
+            background: url(https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(3){
+            background: url(https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(4){
+            background: url(https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+    
+    }
+}
+.div13 p{ 
+       position: relative;
+       top: 150px;
+       left: 10px;
+       color: rgb(197, 161, 0);
+       font-size: 20px;
+       
+   
+}
+.div33{
+    background-color: rgb(236, 171, 86);
+    
+    display: flex;
+    height: 60vh;
+   
+    
+    & .div14{
+        width: 180px;
+        height: 190px;
+        border-radius: 20px;
+        background-color: #000000;
+        
+        margin-top: 250px;
+        margin-left: 110px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.877),0 0 25px rgba(0, 0, 0, 0.877),0 0 50px rgba(0, 0, 0, 0.877),0 0 100px rgba(0, 0, 0, 0.877);
+        transition: all .3s ease-in-out;
+        &:hover{
+            transform: scale(0.97);
+            box-shadow: none;
+        }
+        &:nth-of-type(1){
+            background: url(https://images.pexels.com/photos/4154994/pexels-photo-4154994.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(2){
+            background: url(https://images.pexels.com/photos/17323749/pexels-photo-17323749/free-photo-of-decor-of-bathroom.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(3){
+            background: url(https://images.pexels.com/photos/1222554/pexels-photo-1222554.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(4){
+            background: url(https://images.pexels.com/photos/8793484/pexels-photo-8793484.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+    
+    }
+}
+.div14 p{ 
+       position: relative;
+       top: 150px;
+       left: 10px;
+       color: rgb(58, 50, 50);
+       font-size: 20px;
+       
+   
+}
+.div44{
+    background-color: rgb(236, 171, 86);
+
+    display: flex;
+    height: 60vh;
+   
+    
+    & .div15{
+        width: 180px;
+        height: 190px;
+        border-radius: 20px;
+        background-color: #000000;
+        
+        margin-top: 250px;
+        margin-left: 110px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.877),0 0 25px rgba(0, 0, 0, 0.877),0 0 50px rgba(0, 0, 0, 0.877),0 0 100px rgba(0, 0, 0, 0.877);
+        transition: all .3s ease-in-out;
+        &:hover{
+            transform: scale(0.97);
+            box-shadow: none;
+        }
+        &:nth-of-type(1){
+            background: url(https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(2){
+            background: url(https://images.pexels.com/photos/587958/pexels-photo-587958.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(3){
+            background: url(https://images.pexels.com/photos/221027/pexels-photo-221027.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(4){
+            background: url(https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+    
+    }
+}
+.div15 p{ 
+       position: relative;
+       top: 150px;
+       left: 10px;
+       color: rgb(0, 0, 0);
+       font-size: 20px;
+       
+   
+}
+.div55{
+   
+    background-color: rgb(236, 171, 86);
+    display: flex;
+    height: 60vh;
+   
+    
+    & .div16{
+        width: 180px;
+        height: 190px;
+        border-radius: 20px;
+        background-color: #000000;
+        
+        margin-top: 250px;
+        margin-left: 110px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.877),0 0 25px rgba(0, 0, 0, 0.877),0 0 50px rgba(0, 0, 0, 0.877),0 0 100px rgba(0, 0, 0, 0.877);
+        transition: all .3s ease-in-out;
+        
+        &:hover{
+            transform: scale(0.97);
+            box-shadow: none;
+        }
+        &:nth-of-type(1){
+            background: url(https://images.pexels.com/photos/110844/pexels-photo-110844.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(2){
+            background: url(https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(3){
+            background: url(https://images.pexels.com/photos/19570326/pexels-photo-19570326/free-photo-of-a-street-light-in-the-snow-with-a-telephone-pole.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+        &:nth-of-type(4){
+            background: url(https://images.pexels.com/photos/3217852/pexels-photo-3217852.jpeg?auto=compress&cs=tinysrgb&w=400);
+            background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        }
+    
+    }
+}
+.div16 p{ 
+       position: relative;
+       top: 150px;
+       left: 10px;
+       color: rgb(197, 161, 0);
+       font-size: 20px;
+       
+   
+}
+.div01{
+    position: absolute;
+    z-index: 8;
+    width: 20px;
+    height: 20px;
+    left: 100px;
+    top: 4000px;
+    border-radius: 50%;
+    
+    background-color: #000000;
+}
+.div02{
+    position: absolute;
+    z-index: 8;
+    width: 30px;
+    height: 20px;
+    left: 900px;
+    top: 3600px;
+    border-radius: 50%;
+    
+    background-color: #000000;
+}
+.div03{
+    position: absolute;
+    z-index: 8;
+    width: 50px;
+    height: 20px;
+    left: 900px;
+    top: 3600px;
+    border-radius: 50%;
+    
+    background-color: #000000;
+}
+.div99{
+    height: 70vh;
+    background-color: rgb(255, 226, 187);
+    border: 1px solid  rgb(236, 171, 86);
+}
+.div92{
+    width: 800px;
+    height: 500px;
+    margin-left: 300px;
+    background: url(https://images.ctfassets.net/vwt5n1ljn95x/68OY5vAHQdG6blVvXM1WT7/fd327ff39981e7f61ce3eff34ffffc1c/how_it_works_pic_updated.jpeg?w=1920&q=75&fm=webp);
+    margin-top: 40px;
+    border-radius: 20px;
+    position: relative; /* يجب أن يكون الأب بالنسبة للعنصر الأحمر */
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(255, 252, 252);
+}
+.div93{
+    position: absolute;
+    
+    width: 500px;
+    height: 400px;
+   color: #fff8f8;
+    border-radius: 20px;
+    top: 1990px; /* تحديد الإزاحة من الأعلى */
+    left: 200px; /* تحديد الإزاحة من اليسار */
+    z-index: 10; /* يظهر فوق العنصر الأسود */
+    animation: mo 5s ease-in-out infinite;
+    background:rgba(0, 0,0, .5);
+    border: 3px solid rgb(255, 252, 252);
+    
+    
+    & p{
+    overflow: hidden;
+    font-size: 30px;
+    font-weight:bold ;
+    margin-top: 10%;
+   text-align: center;
+    }
+}
+@keyframes mo {
+    0% {
+        transform: scale(1) ; /* العنصر في الوضع الأصلي */
+        opacity: 1; /* العنصر مرئي */
+
+    }
+    50% {
+        transform: scale(1.1) ; /* العنصر يطفو لأعلى */
+        opacity: .8; /* العنصر يصبح شبه شفاف */
+        box-shadow: 0 0 5px rgba(250, 250, 250, 0.877),0 0 25px rgba(250, 250, 250, 0.877),0 0 50px rgba(250, 250, 250, 0.877),0 0 100px rgba(250, 250, 250, 0.877);
+    }
+    100% {
+        transform: scale(1) ; /* العنصر يعود إلى موضعه الأصلي */
+        opacity: 1; /* العنصر يصبح مرئيًا بالكامل */
+    }
+    
+}
+footer{
+    width: 100%;
+    height: 10em;
+    background-color: #000000;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to top,white,rgb(236, 171, 86)) ;
+}
+.dev88{
+    height: 50vh;
+    color: #fffdfd;
+    background-color: rgb(236, 171, 86);
+    text-align: justify;
+    & h1{
+        width: 300px;
+        
+        position: relative;
+        left: 70%;
+        top: 10%;
+        font-size: 3em;
+    }
+    & ul{
+        list-style: none;
+        display: flex;
+      
+        border-radius: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        & li{
+            margin: 3% 3%;
+            & h2{
+                margin: .8em ;
+                font-size: 2em;
+                
+                width: 7em;
+            }
+            & p{
+                font-size: 2em;
+            }
+        }
+    }
+}
+.fa-face-smile{
+    position: relative;
+    top: 1em;
+    left: 9em;
+    font-size: 4em;
+    color: #000000;
+    animation: bn 5s ease-in-out infinite;
+}
+@keyframes bn {
+    0%{
+        color: #000000;
+    }
+    50%{
+        color: #e2980e;
+    }
+    100%{
+        color: #000000;
+    }
+    
+}

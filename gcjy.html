@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        /* الأساسيات */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .card {
+            background: #f4f4f4;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            flex: 1 1 calc(33.333% - 2rem); /* ثلاث بطاقات في الصف */
+            max-width: calc(33.333% - 2rem);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin-top: 1rem;
+        }
+
+        /* تصميم متجاوب */
+        @media (max-width: 1024px) {
+            .card {
+                flex: 1 1 calc(50% - 2rem); /* بطاقتان في الصف */
+                max-width: calc(50% - 2rem);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                flex: 1 1 100%; /* بطاقة واحدة في الصف */
+                max-width: 100%;
+            }
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Responsive Design Example</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Example 1">
+        <h3>Card 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Example 2">
+        <h3>Card 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Example 3">
+        <h3>Card 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Example 4">
+        <h3>Card 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Example 5">
+        <h3>Card 5</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Responsive Design. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
